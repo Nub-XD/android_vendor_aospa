@@ -17,6 +17,8 @@ CLR_BLD_CYA=$CLR_RST$CLR_BLD$(tput setaf 6) #  cyan, bold
 
 # Set defaults
 BUILD_TYPE="userdebug"
+export BUILD_USERNAME=buildbot
+export BUILD_HOSTNAME=android-buildbot
 
 function checkExit () {
     EXIT_CODE=$?
